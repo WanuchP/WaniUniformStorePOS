@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap');
+
+body{
+    margin: 0px;
+    font-family: Inria Sans;
+}
+
+table, th, td{
+    margin-top: 30px;
+    border: none;
+    border-collapse: collapse;
+    /*border: 1px solid black;
+    
+    font-size: 24px;*/
+}
+
+tr:nth-child(even) {
+    background-color: #D9D9D9;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.title{
+    width: 45%;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 0 0 50px 0;
+}
+
+.user{
+    color: #FFF;
+    font-family: Inria Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 5%;
+    text-align: right;
+}
+
+.user_background{
+    width: 55%;
+    height: 72px;
+    flex-shrink: 0;
+    background: #66D2FA;
+}
+
+.embroidery{
+    color: #000;
+    font-family: Inria Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 62.5% */
+    flex-shrink: 0;
+    margin-top: 3%;
+    margin-left: 12%;
+}
+
+.addDetail{
+    display: flex;
+    width: 300px;
+    height: 50px;
+    padding: 0px 15px;
+    justify-content: center;
+    border-radius: 10px;
+    background: #66D2FA;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    align-items: center;
+    font-family: Inria Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.seeDetail{
+    display: flex;
+    width: 120px;
+    height: 35px;
+    padding: 0px 15px;
+    justify-content: center;
+    border-radius: 10px;
+    background: #66D2FA;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    align-items: center;
+    font-family: Inria Sans;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 80px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.selectBoxList{
+    margin-left: 45%;
+    height: 40px;
+}
+
+.bottom_line{
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonStyle{
+    margin-top: 100px;
+    display: flex;
+    width: 220px;
+    height: 50px;
+    padding: 0px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 10px;
+    background: #66D2FA;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inria Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.typeBox {
+    border-radius: 10px;
+    height: 36px;
+    width: 65%;
+    background: #F2F2F2;
+    margin-right: 5%;
+    border-color: #D9D9D9;
+    border-width: 1px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.valueBox {
+    border-radius: 10px;
+    height: 36px;
+    width: 25%;
+    background: #F2F2F2;
+    margin-left: 35%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: #D9D9D9;
+    border-width: 1px;
+}

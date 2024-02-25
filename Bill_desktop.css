@@ -1,0 +1,156 @@
+body{
+    margin:0px;
+    font-family: Inria Sans;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap');
+
+table{
+    border-spacing: 30px 15px;
+}
+.pos-container {
+    background: white;
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+}
+
+.header {
+    width:550px;
+    height:200px;
+    flex-shrink: 0;
+    border-radius: 0 0 20px 0;
+    background: #FE3E3E;
+}
+.user-info{
+    width: 100%;
+    height: 30% ;
+    color: #FFF;
+    text-align: center;
+    font-family: Inria Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background:#66D2FA;;
+}
+.grand-total {
+    color: #FFF;
+    margin-left:1%;
+    text-align: left;
+    font-family: Inria Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+.expense{
+    margin-top: 2%;
+    color: #FFF;
+    text-align: center;
+    font-family: Inria Sans;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.username {
+    font-weight: bold; 
+}
+
+.item-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.item-table th, .item-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.item-table th {
+    background-color: #D9D9D9
+}
+
+.actions {
+  display:flex;
+  justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.return {
+    text-align: left;
+    display: flex;
+    width: 145px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #66D2FA;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    justify-content: space-around;
+}
+
+.edit-embroidery {
+text-align: left;
+display: flex;
+width: 200px;
+height: 35px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #66D2FA;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+justify-content: space-around;
+}
+
+.bill-check {
+    text-align: left;
+    display: flex;
+    width: 145px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #66D2FA;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    justify-content: space-around;
+
+}
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Aligns content to the left */
+  padding-left: 10px; /* Adjust as needed */
+  background: #ECECEC; /* Background color for the controls container */
+  border-bottom: 1px solid #ccc; /* Adds a bottom border */
+  padding: 10px; /* Padding inside the container */
+
+}
+
+  
+ Button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: deeppink;
+}
+/* Additional styles to align buttons to the left */
+.button-container .button-group {
+  margin-left: auto;
+}
+.superhead{
+    display: flex;
+    flex-direction: row;
+}
+tr:nth-child(even) {
+    background-color: #D9D9D9;
+}

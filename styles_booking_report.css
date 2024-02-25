@@ -1,0 +1,96 @@
+body{
+    margin:0px;
+}
+.user{
+    margin-left: auto;
+    background-color: #66D2FA;
+    color: #FFF;
+    text-align: center;
+    font-family: Inria Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 643px;
+    height: 72px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    width: 744px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inria Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 62.5% */
+    margin-left: 10px;
+}
+table{
+    margin-top: 32px;
+    font-family: Inria Sans;
+    color: #000;
+    text-align: center;
+    font-family: Inria Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 95.238% */
+    border-collapse: collapse;
+}
+tr:nth-child(even) {
+    background-color: #D9D9D9;
+}
+.my-dropdown {
+    width: 60px;
+    height: 24px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background-color:white;
+    border: none;
+    font-family: Inria Sans;
+    align-items: center;
+    justify-content: center;
+}
+.bottom_line{
+    display: flex;
+    flex-direction: row;
+}
+.button1{
+    margin-top: 80px;
+    display: flex;
+    width: 220px;
+    height: 50px;
+    padding: 0px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 10px;
+    background: #66D2FA;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inria Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    flex-direction: row;
+    margin-left: 36px;
+    margin-bottom: auto;
+}
+.my-pickdate{
+    width: 100px;
+    height: 24px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background:white;
+    border: none;
+    font-family: Inria Sans;
+    align-items: center;
+    justify-content: center;
+}
+

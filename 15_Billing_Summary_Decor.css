@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap');
+
+body{
+    margin: 0px;
+}
+
+table, th, td {
+    margin: 40px;
+    width: 100%;
+    border: none;
+}
+
+.flex-container{
+    display:flex;
+}
+
+.grand_total{
+    margin-left: 12%; 
+    color: #FFF;
+    font-family: Inria Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.expense{
+    margin-top: 3%;
+    color: #FFF;
+    text-align: center;
+    font-family: Inria Sans;
+    font-size: 144px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.gt_background{
+    width: 45%;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 0 0 50px 0;
+    background: #FE3E3E;
+}
+
+.user{
+    color: #FFF;
+    font-family: Inria Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 5%;
+    text-align: right;
+}
+
+.user_background{
+    width: 55%;
+    height: 72px;
+    flex-shrink: 0;
+    background: #66D2FA;
+}
+
+.input1{
+    border-radius: 10px;
+    height: 36px;
+    width: 65%;
+    background: #F2F2F2;
+    margin-right: 5%;
+    border: none;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bodyfont{
+    color: #000;
+    width: 25%;
+    font-family: Inria Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: center;
+    text-align: right;
+    margin-right: 5%;
+}
+
+.bottom_line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 100px;
+    
+}
+
+.buttonStyle{
+    margin-bottom: 100px;
+    display: flex;
+    width: 220px;
+    height: 50px;
+    padding: 0px 15px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border-radius: 10px;
+    background: #66D2FA;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inria Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.printButton{
+    width: 500px;
+    height: 75px;
+    border-radius: 10px;
+    background: #66D2FA;
+    border: none;
+    color: #FFF;
+    font-family: Inria Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
